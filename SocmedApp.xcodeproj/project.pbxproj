@@ -3,23 +3,66 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B493061D3C8146EA2A1863DD /* Pods_SocmedApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8864276D9BC7F981E445E2A /* Pods_SocmedApp.framework */; };
+		F346F0AB2515F7E80014C848 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F346F0AA2515F7E80014C848 /* PostModel.swift */; };
+		F346F0AE2515F8250014C848 /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F346F0AD2515F8250014C848 /* PostViewModel.swift */; };
+		F346F0B12515F8E70014C848 /* NewPostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F346F0B02515F8E70014C848 /* NewPostModel.swift */; };
+		F346F0B52515F8FD0014C848 /* NewPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = F346F0B32515F8FC0014C848 /* NewPost.swift */; };
+		F346F0B62515F8FD0014C848 /* PostRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F346F0B42515F8FD0014C848 /* PostRow.swift */; };
 		F39D48372514F76A002281C7 /* SocmedAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39D48362514F76A002281C7 /* SocmedAppApp.swift */; };
 		F39D48392514F76A002281C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39D48382514F76A002281C7 /* ContentView.swift */; };
 		F39D483B2514F76C002281C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F39D483A2514F76C002281C7 /* Assets.xcassets */; };
 		F39D483E2514F76C002281C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F39D483D2514F76C002281C7 /* Preview Assets.xcassets */; };
+		F39D48472514F8B7002281C7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F39D48462514F8B7002281C7 /* GoogleService-Info.plist */; };
+		F3F3B49C251504120034B9C1 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F3B49B251504120034B9C1 /* Login.swift */; };
+		F3F3B4A0251504830034B9C1 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F3B49F251504830034B9C1 /* LoginViewModel.swift */; };
+		F3F3B4A4251511620034B9C1 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F3B4A3251511620034B9C1 /* Register.swift */; };
+		F3F3B4BF25151B230034B9C1 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F3B4BE25151B230034B9C1 /* RegisterViewModel.swift */; };
+		F3F3B4C225151B4B0034B9C1 /* UploadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F3B4C125151B4B0034B9C1 /* UploadImage.swift */; };
+		F3F3B4C525151B930034B9C1 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F3B4C425151B930034B9C1 /* ImagePicker.swift */; };
+		F3F3B4C825151BAF0034B9C1 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F3B4C725151BAF0034B9C1 /* Home.swift */; };
+		F3F3B4CB2515A6890034B9C1 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F3B4CA2515A6890034B9C1 /* UserModel.swift */; };
+		F3F3B4CE2515A71B0034B9C1 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F3B4CD2515A71B0034B9C1 /* ProfileView.swift */; };
+		F3F3B4D32515A81C0034B9C1 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = F3F3B4D22515A81C0034B9C1 /* SDWebImageSwiftUI */; };
+		F3F3B4D62515A85A0034B9C1 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F3B4D52515A85A0034B9C1 /* ProfileViewModel.swift */; };
+		F3F3B4D92515A8BE0034B9C1 /* FetchUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F3B4D82515A8BD0034B9C1 /* FetchUser.swift */; };
+		F3F3B4DC2515AB1C0034B9C1 /* FloatingTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F3B4DB2515AB1C0034B9C1 /* FloatingTabBar.swift */; };
+		F3F3B4DF2515ABDE0034B9C1 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F3B4DE2515ABDE0034B9C1 /* PostView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A78E859E2084A4C90E62697 /* Pods-SocmedApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocmedApp.debug.xcconfig"; path = "Target Support Files/Pods-SocmedApp/Pods-SocmedApp.debug.xcconfig"; sourceTree = "<group>"; };
+		2FBD5BD9B3EE81FADDC4A8F4 /* Pods-SocmedApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocmedApp.release.xcconfig"; path = "Target Support Files/Pods-SocmedApp/Pods-SocmedApp.release.xcconfig"; sourceTree = "<group>"; };
+		A8864276D9BC7F981E445E2A /* Pods_SocmedApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocmedApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F346F0AA2515F7E80014C848 /* PostModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		F346F0AD2515F8250014C848 /* PostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewModel.swift; sourceTree = "<group>"; };
+		F346F0B02515F8E70014C848 /* NewPostModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewPostModel.swift; sourceTree = "<group>"; };
+		F346F0B32515F8FC0014C848 /* NewPost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewPost.swift; sourceTree = "<group>"; };
+		F346F0B42515F8FD0014C848 /* PostRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostRow.swift; sourceTree = "<group>"; };
 		F39D48332514F769002281C7 /* SocmedApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocmedApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F39D48362514F76A002281C7 /* SocmedAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocmedAppApp.swift; sourceTree = "<group>"; };
 		F39D48382514F76A002281C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F39D483A2514F76C002281C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F39D483D2514F76C002281C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F39D483F2514F76C002281C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F39D48462514F8B7002281C7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F3F3B49B251504120034B9C1 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		F3F3B49F251504830034B9C1 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		F3F3B4A3251511620034B9C1 /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		F3F3B4BE25151B230034B9C1 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		F3F3B4C125151B4B0034B9C1 /* UploadImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadImage.swift; sourceTree = "<group>"; };
+		F3F3B4C425151B930034B9C1 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		F3F3B4C725151BAF0034B9C1 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		F3F3B4CA2515A6890034B9C1 /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		F3F3B4CD2515A71B0034B9C1 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		F3F3B4D52515A85A0034B9C1 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		F3F3B4D82515A8BD0034B9C1 /* FetchUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchUser.swift; sourceTree = "<group>"; };
+		F3F3B4DB2515AB1C0034B9C1 /* FloatingTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingTabBar.swift; sourceTree = "<group>"; };
+		F3F3B4DE2515ABDE0034B9C1 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +70,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3F3B4D32515A81C0034B9C1 /* SDWebImageSwiftUI in Frameworks */,
+				B493061D3C8146EA2A1863DD /* Pods_SocmedApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		235DCB4D4B8FC6F0AC5815C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8864276D9BC7F981E445E2A /* Pods_SocmedApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D31DCE0F31AD7F558E1D1382 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A78E859E2084A4C90E62697 /* Pods-SocmedApp.debug.xcconfig */,
+				2FBD5BD9B3EE81FADDC4A8F4 /* Pods-SocmedApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F39D482A2514F769002281C7 = {
 			isa = PBXGroup;
 			children = (
 				F39D48352514F76A002281C7 /* SocmedApp */,
 				F39D48342514F769002281C7 /* Products */,
+				D31DCE0F31AD7F558E1D1382 /* Pods */,
+				235DCB4D4B8FC6F0AC5815C7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,9 +116,13 @@
 		F39D48352514F76A002281C7 /* SocmedApp */ = {
 			isa = PBXGroup;
 			children = (
+				F3F3B49A251502EF0034B9C1 /* Model */,
+				F3F3B499251502E90034B9C1 /* View */,
+				F3F3B498251502E00034B9C1 /* ViewModel */,
 				F39D48362514F76A002281C7 /* SocmedAppApp.swift */,
 				F39D48382514F76A002281C7 /* ContentView.swift */,
 				F39D483A2514F76C002281C7 /* Assets.xcassets */,
+				F39D48462514F8B7002281C7 /* GoogleService-Info.plist */,
 				F39D483F2514F76C002281C7 /* Info.plist */,
 				F39D483C2514F76C002281C7 /* Preview Content */,
 			);
@@ -69,6 +137,45 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		F3F3B498251502E00034B9C1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F3F3B49F251504830034B9C1 /* LoginViewModel.swift */,
+				F3F3B4BE25151B230034B9C1 /* RegisterViewModel.swift */,
+				F3F3B4D52515A85A0034B9C1 /* ProfileViewModel.swift */,
+				F346F0AD2515F8250014C848 /* PostViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F3F3B499251502E90034B9C1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F3F3B49B251504120034B9C1 /* Login.swift */,
+				F3F3B4A3251511620034B9C1 /* Register.swift */,
+				F3F3B4C425151B930034B9C1 /* ImagePicker.swift */,
+				F3F3B4C725151BAF0034B9C1 /* Home.swift */,
+				F3F3B4CD2515A71B0034B9C1 /* ProfileView.swift */,
+				F3F3B4DB2515AB1C0034B9C1 /* FloatingTabBar.swift */,
+				F3F3B4DE2515ABDE0034B9C1 /* PostView.swift */,
+				F346F0B32515F8FC0014C848 /* NewPost.swift */,
+				F346F0B42515F8FD0014C848 /* PostRow.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F3F3B49A251502EF0034B9C1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F3F3B4C125151B4B0034B9C1 /* UploadImage.swift */,
+				F3F3B4CA2515A6890034B9C1 /* UserModel.swift */,
+				F346F0AA2515F7E80014C848 /* PostModel.swift */,
+				F3F3B4D82515A8BD0034B9C1 /* FetchUser.swift */,
+				F346F0B02515F8E70014C848 /* NewPostModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -76,15 +183,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F39D48422514F76C002281C7 /* Build configuration list for PBXNativeTarget "SocmedApp" */;
 			buildPhases = (
+				8C3B93BA8A65FDFB0C96E401 /* [CP] Check Pods Manifest.lock */,
 				F39D482F2514F769002281C7 /* Sources */,
 				F39D48302514F769002281C7 /* Frameworks */,
 				F39D48312514F769002281C7 /* Resources */,
+				29846FBC5A16109CC23B0724 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = SocmedApp;
+			packageProductDependencies = (
+				F3F3B4D22515A81C0034B9C1 /* SDWebImageSwiftUI */,
+			);
 			productName = SocmedApp;
 			productReference = F39D48332514F769002281C7 /* SocmedApp.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +224,9 @@
 				Base,
 			);
 			mainGroup = F39D482A2514F769002281C7;
+			packageReferences = (
+				F3F3B4D12515A81C0034B9C1 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = F39D48342514F769002281C7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -128,18 +243,79 @@
 			files = (
 				F39D483E2514F76C002281C7 /* Preview Assets.xcassets in Resources */,
 				F39D483B2514F76C002281C7 /* Assets.xcassets in Resources */,
+				F39D48472514F8B7002281C7 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29846FBC5A16109CC23B0724 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SocmedApp/Pods-SocmedApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SocmedApp/Pods-SocmedApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SocmedApp/Pods-SocmedApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C3B93BA8A65FDFB0C96E401 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SocmedApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F39D482F2514F769002281C7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3F3B4C225151B4B0034B9C1 /* UploadImage.swift in Sources */,
+				F346F0AB2515F7E80014C848 /* PostModel.swift in Sources */,
+				F346F0B62515F8FD0014C848 /* PostRow.swift in Sources */,
+				F3F3B4A0251504830034B9C1 /* LoginViewModel.swift in Sources */,
+				F3F3B4BF25151B230034B9C1 /* RegisterViewModel.swift in Sources */,
+				F3F3B49C251504120034B9C1 /* Login.swift in Sources */,
+				F346F0B52515F8FD0014C848 /* NewPost.swift in Sources */,
+				F3F3B4C825151BAF0034B9C1 /* Home.swift in Sources */,
+				F346F0AE2515F8250014C848 /* PostViewModel.swift in Sources */,
 				F39D48392514F76A002281C7 /* ContentView.swift in Sources */,
+				F3F3B4D62515A85A0034B9C1 /* ProfileViewModel.swift in Sources */,
+				F3F3B4C525151B930034B9C1 /* ImagePicker.swift in Sources */,
 				F39D48372514F76A002281C7 /* SocmedAppApp.swift in Sources */,
+				F3F3B4CB2515A6890034B9C1 /* UserModel.swift in Sources */,
+				F3F3B4CE2515A71B0034B9C1 /* ProfileView.swift in Sources */,
+				F3F3B4DC2515AB1C0034B9C1 /* FloatingTabBar.swift in Sources */,
+				F3F3B4D92515A8BE0034B9C1 /* FetchUser.swift in Sources */,
+				F3F3B4DF2515ABDE0034B9C1 /* PostView.swift in Sources */,
+				F346F0B12515F8E70014C848 /* NewPostModel.swift in Sources */,
+				F3F3B4A4251511620034B9C1 /* Register.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +440,7 @@
 		};
 		F39D48432514F76C002281C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A78E859E2084A4C90E62697 /* Pods-SocmedApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -277,15 +454,16 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = appleacademy.SocmedApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appleacademy.SocmedApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		F39D48442514F76C002281C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FBD5BD9B3EE81FADDC4A8F4 /* Pods-SocmedApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -299,10 +477,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = appleacademy.SocmedApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appleacademy.SocmedApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -328,6 +506,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F3F3B4D12515A81C0034B9C1 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F3F3B4D22515A81C0034B9C1 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F3F3B4D12515A81C0034B9C1 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F39D482B2514F769002281C7 /* Project object */;
 }
